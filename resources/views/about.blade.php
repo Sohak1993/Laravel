@@ -4,15 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>About us | Hello</title>
 
     </head>
     <body>
-       <h1>Hello from Quebec !</h1>
-
-       <p>Il est {{ date('h:i A') }}</p>
+        <p>Built with &hearts; by me</p>
+        <p><a href="/">Revenir à la page d'accueil</a></p>
     </body>
     <footer>
-        <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About us</a></p>
+        <p>&copy; Copyright {{ date('Y') }} &middot; <a href="#">About us</a></p>
     </footer>
 </html>
